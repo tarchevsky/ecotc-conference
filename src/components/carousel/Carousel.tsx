@@ -83,7 +83,7 @@ const Carousel = () => {
 				<SwiperSlide>
 					<div className='relative h-full flex flex-col justify-center '>
 						<Image
-							className='absolute top-0 left-0 h-full w-full  -z-10 brightness-75'
+							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75'
 							src='/main-bunner-3.jpg'
 							alt='fog-sea'
 							width={1000}
