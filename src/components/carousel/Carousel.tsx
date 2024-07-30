@@ -4,13 +4,12 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, EffectFade, Pagination } from 'swiper/modules'
+import { Navigation, EffectFade, Autoplay } from 'swiper/modules'
 import styles from './Carousel.module.scss'
 import cn from 'clsx'
 import FadeIn from '@/components/fadeIn/FadeIn'
 
 import Image from 'next/image'
-import Button from '@/components/button/Button'
 
 const Carousel = () => {
 	return (
@@ -20,8 +19,12 @@ const Carousel = () => {
 				spaceBetween={30}
 				loop={true}
 				navigation={true}
+				autoplay={{
+					delay: 2000,
+					disableOnInteraction: false
+				}}
 				effect={'fade'}
-				modules={[EffectFade, Navigation]}
+				modules={[EffectFade, Navigation, Autoplay]}
 				className={cn(styles.carousel, 'carousel')}
 			>
 				<SwiperSlide>
@@ -42,13 +45,6 @@ const Carousel = () => {
 								Организация конференций по торговле нефти, нефтепродуктов и
 								сжиженного газа
 							</h2>
-							<div className='text-white'>Текст на слайде</div>
-							<Button
-								tag='button'
-								ariaLabel='Какая-то кнопка'
-								text='Кнопка'
-								className='btn-wide'
-							/>
 						</FadeIn>
 					</div>
 				</SwiperSlide>
@@ -70,13 +66,6 @@ const Carousel = () => {
 								Организация конференций по торговле нефти, нефтепродуктов и
 								сжиженного газа
 							</h2>
-							<div className='text-white'>Текст на слайде</div>
-							<Button
-								tag='button'
-								ariaLabel='Какая-то кнопка'
-								text='Кнопка'
-								className='btn-wide'
-							/>
 						</FadeIn>
 					</div>
 				</SwiperSlide>
@@ -98,13 +87,6 @@ const Carousel = () => {
 								Организация конференций по торговле нефти, нефтепродуктов и
 								сжиженного газа
 							</h2>
-							<div className='text-white'>Текст на слайде</div>
-							<Button
-								tag='button'
-								ariaLabel='Какая-то кнопка'
-								text='Кнопка'
-								className='btn-wide'
-							/>
 						</FadeIn>
 					</div>
 				</SwiperSlide>
