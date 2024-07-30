@@ -1,6 +1,6 @@
 .carousel {
     .swiper, .swiper-wrapper {
-        height: 700px;
+        height: 75svh;
         padding-bottom: 80px;
     }
 

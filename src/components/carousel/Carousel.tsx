@@ -30,7 +30,7 @@ const Carousel = () => {
 				<SwiperSlide>
 					<div className='relative h-full flex flex-col justify-center'>
 						<Image
-							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75'
+							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75 object-bottom'
 							src='/main-bunner-1.jpg'
 							alt='more-dark'
 							width={1000}
@@ -51,7 +51,7 @@ const Carousel = () => {
 				<SwiperSlide>
 					<div className='relative h-full flex flex-col justify-center'>
 						<Image
-							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75'
+							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75 object-bottom'
 							src='/main-bunner-2.webp'
 							alt='forest-river'
 							width={1000}
@@ -73,7 +73,7 @@ const Carousel = () => {
 					<div className='relative h-full flex flex-col justify-center '>
 						<Image
 							className='absolute top-0 left-0 h-full w-full -z-10 brightness-75'
-							src='/main-bunner-3.jpg'
+							src='/main-bunner-3.webp'
 							alt='fog-sea'
 							width={1000}
 							height={1000}
