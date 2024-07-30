@@ -3,7 +3,6 @@ import cn from 'clsx'
 import styles from './Header.module.scss'
 import Burger from '@/components/burger/Burger'
 import { useEffect, useState } from 'react'
-import ThemeToggle from '@/components/themeToggle/ThemeToggle'
 
 const Header = () => {
 	const [isMenuActive, setIsMenuActive] = useState(false)
@@ -20,7 +19,7 @@ const Header = () => {
 	}, [isMenuActive])
 
 	return (
-		<header className='relative flex flex-col mb-16'>
+		<header className='relative flex flex-col md:mb-16'>
 			<Link href='/' className='px-4 py-4 font-bold'>
 				ecotc-conference
 			</Link>
