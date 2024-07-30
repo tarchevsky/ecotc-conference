@@ -3,6 +3,7 @@ import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import Carousel from '@/components/carousel/Carousel'
 import Announces from '@/components/announces/Announces'
+import Logos from '@/components/logos/Logos'
 
 const title = 'Главная'
 const metaDesc = 'Описание страницы'
@@ -68,6 +69,9 @@ const HomePage: NextPage = () => {
 					Инициатором и организатором всех конференций выступало ООО «Эко-Техник
 					Консалтинг».
 				</p>
+			</FadeIn>
+			<FadeIn className='cont mb-10 xl:mb-16'>
+				<Logos />
 			</FadeIn>
 		</>
 	)
