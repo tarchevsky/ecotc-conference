@@ -62,6 +62,30 @@ const Logos = () => {
 					className='object-contain justify-self-center'
 				/>
 			</div>
+			<h4 className='text-3xl mb-5'>Основные участники</h4>
+			<div className='grid grid-cols-3 gap-14 items-center justify-center mb-10 md:mb-16'>
+				<Image
+					src='/logos/lukoil.jpg'
+					alt='logo'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center'
+				/>
+				<Image
+					src='/logos/socar.jpg'
+					alt='logo'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center'
+				/>
+				<Image
+					src='/logos/kaz.jpg'
+					alt='logo'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center'
+				/>
+			</div>
 		</>
 	)
 }
