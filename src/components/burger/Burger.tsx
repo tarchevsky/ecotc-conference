@@ -14,7 +14,7 @@ const Burger = ({ toggleMenu }: any) => {
 		<button
 			className={cn(
 				styles.burger,
-				'block md:hidden absolute w-[30px] h-[20px] inset-y-1/2 right-0 -translate-y-1/2 cursor-pointer z-20'
+				'block md:hidden absolute w-[30px] h-[20px] inset-y-1/2 right-4 -translate-y-1/2 cursor-pointer z-20'
 			)}
 			aria-label='Open the menu'
 			onClick={toggleIsActive}
