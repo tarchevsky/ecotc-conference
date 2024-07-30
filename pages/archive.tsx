@@ -1,16 +1,13 @@
 import { NextPage } from 'next'
-import FadeIn from '@/components/fadeIn/FadeIn'
-import Meta from '@/components/meta/Meta'
+import PageHeading from '@/components/pageHeading/PageHeading'
+
+const title = 'Архив'
+const metaDesc = 'Страница Архива'
 
 const Archive: NextPage = () => {
 	return (
 		<>
-			<Meta title='Архив' metaDesc='Страница Архива' />
-			<FadeIn className='cont'>
-				<main>
-					<h1 className={`text-4xl font-bold`}>Архив</h1>
-				</main>
-			</FadeIn>
+			<PageHeading title={title} metaDesc={metaDesc} />
 		</>
 	)
 }

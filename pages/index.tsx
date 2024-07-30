@@ -5,11 +5,12 @@ import Carousel from '@/components/carousel/Carousel'
 import Announces from '@/components/announces/Announces'
 
 const title = 'Главная'
+const metaDesc = 'Описание страницы'
 
 const HomePage: NextPage = () => {
 	return (
 		<>
-			<Meta title='Главная' metaDesc='Описание страницы' />
+			<Meta title={title} metaDesc={metaDesc} />
 			<FadeIn>
 				<Carousel />
 			</FadeIn>

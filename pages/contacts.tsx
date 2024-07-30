@@ -1,20 +1,16 @@
 import { NextPage } from 'next'
 import FadeIn from '@/components/fadeIn/FadeIn'
-import Meta from '@/components/meta/Meta'
 import ContactForm from '@/components/contactForm/ContactForm'
 import Link from 'next/link'
+import PageHeading from '@/components/pageHeading/PageHeading'
 
 const title = 'Контакты'
+const metaDesc = 'Описание страницы контактов'
 
 const ContactsPage: NextPage = () => {
 	return (
 		<>
-			<Meta title={title} metaDesc='Описание страницы контактов' />
-			<FadeIn className='cont mb-16'>
-				<main>
-					<h1 className={`text-4xl font-bold`}>{title}</h1>
-				</main>
-			</FadeIn>
+			<PageHeading title={title} metaDesc={metaDesc} />
 			<FadeIn className='cont mb-16'>
 				<p>
 					Адрес: Россия, г. Москва, Ленинградский пр-кт 37, корп. 3, офис 1024,
