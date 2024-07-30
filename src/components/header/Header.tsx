@@ -19,7 +19,7 @@ const Header = () => {
 	}, [isMenuActive])
 
 	return (
-		<header className='relative flex flex-col md:mb-16'>
+		<header className='relative flex flex-col'>
 			<Link href='/' className='px-4 py-4 font-bold'>
 				ecotc-conference
 			</Link>
