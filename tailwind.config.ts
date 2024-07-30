@@ -14,6 +14,7 @@ module.exports = {
 	},
 	plugins: [
 		addVariablesForColors,
+		require('@tailwindcss/typography'),
 		require('daisyui'),
 		function ({ addUtilities }: any) {
 			const containerUtility = {

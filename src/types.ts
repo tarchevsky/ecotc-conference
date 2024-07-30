@@ -14,6 +14,13 @@ export interface MetaProps {
 	metaDesc?: string
 }
 
+// PageHeading.tsx
+
+export interface PageHeadingProps extends MetaProps {
+	children?: ReactNode
+	prose?: boolean
+}
+
 // Button.tsx
 
 export interface ButtonProps {
