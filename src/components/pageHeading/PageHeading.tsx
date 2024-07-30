@@ -12,7 +12,9 @@ const PageHeading = ({
 	return (
 		<>
 			<Meta title={title} metaDesc={metaDesc} />
-			<FadeIn className={`mb-16 ${prose ? 'prose m-auto' : 'cont'}`}>
+			<FadeIn
+				className={`my-10 xl:my-16 ${prose ? 'prose m-auto px-10 xl:px-0' : 'cont'}`}
+			>
 				<main>
 					<h1 className={cn('text-4xl font-bold')}>{title}</h1>
 					{children}
