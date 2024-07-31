@@ -23,15 +23,6 @@ const Archive: NextPage = () => {
 						обмена знаниями и опытом среди профессионалов отрасли, что
 						способствовало развитию и укреплению деловых связей.
 					</p>
-					<Link href='/sng.pdf' target='_blank' rel='noopener noreferrer'>
-						<Image
-							src='/sng-pdf.png'
-							alt='logo'
-							width={800}
-							height={1200}
-							className='object-contain'
-						/>
-					</Link>
 					<p>
 						По завершении конференции участники получали сертификаты о повышении
 						квалификации.
@@ -52,6 +43,15 @@ const Archive: NextPage = () => {
 						поделиться своим опытом с коллегами, способствуя общему развитию
 						отрасли.
 					</p>
+					<Link href='/sng.pdf' target='_blank' rel='noopener noreferrer'>
+						<Image
+							src='/sng-pdf.png'
+							alt='logo'
+							width={800}
+							height={1200}
+							className='object-contain'
+						/>
+					</Link>
 				</FadeIn>
 			</PageHeading>
 		</>
