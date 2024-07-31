@@ -8,7 +8,7 @@ interface AnnouncesProps {
 
 const Announces = ({ title }: AnnouncesProps) => {
 	return (
-		<div className='lg:absolute lg:z-10 lg:top-[530px] lg:right-16 flex flex-col gap-5 lg:w-[400px]'>
+		<div className='lg:absolute lg:z-10 lg:top-[560px] lg:right-16 flex flex-col gap-5 lg:w-[400px]'>
 			<div className='flex flex-col gap-5 px-10 py-16 bg-white bg-opacity-90 lg:shadow-md'>
 				<h3 className='text-2xl font-semibold'>Мероприятие</h3>
 				<b>Дата</b>
