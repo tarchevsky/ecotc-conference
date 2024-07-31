@@ -20,8 +20,16 @@ const Header = () => {
 
 	return (
 		<header className='relative flex flex-col'>
-			<Link href='/' className='px-4 py-4 font-bold'>
-				ecotc-conference
+			<Link
+				href='/'
+				className={cn(
+					styles.logo,
+					'px-4 py-4 font-bold text-[#229624] text-[20px]'
+				)}
+			>
+				ООО Эко Техник Консалтинг
+				<br />
+				Eco Technics Consulting LLC
 			</Link>
 			<nav
 				className={cn(
