@@ -67,23 +67,23 @@ const Logos = () => {
 				<Image
 					src='/logos/lukoil.jpg'
 					alt='logo'
-					width={80}
-					height={80}
-					className='object-contain justify-self-center'
+					width={30}
+					height={30}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
 				/>
 				<Image
 					src='/logos/socar.jpg'
 					alt='logo'
-					width={80}
-					height={80}
-					className='object-contain justify-self-center'
+					width={30}
+					height={30}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
 				/>
 				<Image
 					src='/logos/kaz.jpg'
 					alt='logo'
-					width={80}
-					height={80}
-					className='object-contain justify-self-center'
+					width={30}
+					height={30}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
 				/>
 			</div>
 			<h4 className='font-semibold text-2xl mb-5'>Информационные спонсоры</h4>
@@ -91,16 +91,16 @@ const Logos = () => {
 				<Image
 					src='/logos/oilspace.png'
 					alt='logo'
-					width={150}
-					height={150}
-					className='object-contain justify-self-center'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[150px] xl:w-[180px]'
 				/>
 				<Image
 					src='/logos/interfax.jpg'
 					alt='logo'
-					width={150}
-					height={150}
-					className='object-contain justify-self-center'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[150px] xl:w-[180px]'
 				/>
 			</div>
 		</>
