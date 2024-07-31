@@ -1,6 +1,8 @@
 import { NextPage } from 'next'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import FadeIn from '@/components/fadeIn/FadeIn'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const title = 'Архив'
 const metaDesc = 'Страница Архива'
@@ -21,6 +23,15 @@ const Archive: NextPage = () => {
 						обмена знаниями и опытом среди профессионалов отрасли, что
 						способствовало развитию и укреплению деловых связей.
 					</p>
+					<Link href='/sng.pdf' target='_blank' rel='noopener noreferrer'>
+						<Image
+							src='/sng-pdf.png'
+							alt='logo'
+							width={800}
+							height={1200}
+							className='object-contain'
+						/>
+					</Link>
 					<p>
 						По завершении конференции участники получали сертификаты о повышении
 						квалификации.
