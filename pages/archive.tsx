@@ -49,7 +49,7 @@ const Archive: NextPage = () => {
 							alt='logo'
 							width={800}
 							height={1200}
-							className='object-contain'
+							className='object-contain hover:brightness-90 transition-all ease-in-out'
 						/>
 					</Link>
 				</FadeIn>
