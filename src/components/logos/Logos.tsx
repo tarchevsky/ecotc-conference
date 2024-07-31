@@ -3,8 +3,9 @@ import Image from 'next/image'
 const Logos = () => {
 	return (
 		<>
-			<h4 className='font-semibold text-2xl mb-5'>Партнеры</h4>
-			<p>Мы проводили эти конференции в партнерстве с:</p>
+			<h4 className='font-semibold text-2xl mb-5'>
+				Мы проводили конференции в партнерстве с:
+			</h4>
 			<div className='grid grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-14 items-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/gubkina.png'
