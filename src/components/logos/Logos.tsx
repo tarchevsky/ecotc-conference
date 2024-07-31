@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Logos = () => {
 	return (
 		<>
-			<h4 className='text-3xl mb-5'>Партнеры</h4>
+			<h4 className='font-semibold text-2xl mb-5'>Партнеры</h4>
 			<div className='grid grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-14 items-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/gubkina.png'
@@ -62,7 +62,7 @@ const Logos = () => {
 					className='object-contain justify-self-center'
 				/>
 			</div>
-			<h4 className='text-3xl mb-5'>Основные участники</h4>
+			<h4 className='font-semibold text-2xl mb-5'>Основные участники</h4>
 			<div className='grid grid-cols-3 gap-14 items-center justify-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/lukoil.jpg'
@@ -86,7 +86,7 @@ const Logos = () => {
 					className='object-contain justify-self-center'
 				/>
 			</div>
-			<h4 className='text-3xl mb-5'>Информационные спонсоры</h4>
+			<h4 className='font-semibold text-2xl mb-5'>Информационные спонсоры</h4>
 			<div className='grid grid-cols-2 gap-14 items-center justify-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/oilspace.png'
