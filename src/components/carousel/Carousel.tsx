@@ -42,8 +42,8 @@ const Carousel = () => {
 						/>
 						<FadeIn className='flex flex-col gap-5 w-full lg:w-[50vw] 2xl:w-[60vw] px-10 lg:px-0 lg:pl-[100px] 2xl:pl-[200px]'>
 							<h2 className='font-semibold text-4xl md:text-5xl text-white'>
-								Организация конференций по торговле нефти, нефтепродуктов и
-								сжиженного газа
+								Организация конференций по торговле нефтью, нефтепродуктами и
+								сжиженным газом
 							</h2>
 						</FadeIn>
 					</div>
@@ -63,8 +63,8 @@ const Carousel = () => {
 						/>
 						<FadeIn className='flex flex-col gap-5 w-full lg:w-[50vw] 2xl:w-[60vw] px-10 lg:px-0 lg:pl-[100px] 2xl:pl-[200px]'>
 							<h2 className='font-semibold text-4xl md:text-5xl text-white'>
-								Организация конференций по торговле нефти, нефтепродуктов и
-								сжиженного газа
+								Организация конференций по торговле нефтью, нефтепродуктами и
+								сжиженным газом
 							</h2>
 						</FadeIn>
 					</div>
@@ -84,8 +84,8 @@ const Carousel = () => {
 						/>
 						<FadeIn className='flex flex-col gap-5 w-full lg:w-[50vw] 2xl:w-[60vw] px-10 lg:px-0 lg:pl-[100px] 2xl:pl-[200px]'>
 							<h2 className='font-semibold text-4xl md:text-5xl text-white'>
-								Организация конференций по торговле нефти, нефтепродуктов и
-								сжиженного газа
+								Организация конференций по торговле нефтью, нефтепродуктами и
+								сжиженным газом
 							</h2>
 						</FadeIn>
 					</div>
