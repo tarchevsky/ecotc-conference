@@ -19,11 +19,11 @@ module.exports = {
 		function ({ addUtilities }: any) {
 			const containerUtility = {
 				'.cont': {
-					'padding-left': '16px',
-					'padding-right': '16px',
+					'padding-left': '48px',
+					'padding-right': '48px',
 					'@screen sm': {
-						'padding-left': '40px',
-						'padding-right': '40px'
+						'padding-left': '48px',
+						'padding-right': '48px'
 					},
 					'@screen md': {
 						'padding-left': '100px',
