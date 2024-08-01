@@ -43,14 +43,33 @@ const Archive: NextPage = () => {
 						поделиться своим опытом с коллегами, способствуя общему развитию
 						отрасли.
 					</p>
+					<Link href='/OGT4Rus.pdf' target='_blank' rel='noopener noreferrer'>
+						<figure>
+							<Image
+								src='/sng-pdf-2.png'
+								alt='logo'
+								width={800}
+								height={1200}
+								className='object-contain hover:brightness-90 transition-all ease-in-out'
+							/>
+							<figcaption className={'text-center'}>
+								PDF ко второй конференции
+							</figcaption>
+						</figure>
+					</Link>
 					<Link href='/sng.pdf' target='_blank' rel='noopener noreferrer'>
-						<Image
-							src='/sng-pdf.png'
-							alt='logo'
-							width={800}
-							height={1200}
-							className='object-contain hover:brightness-90 transition-all ease-in-out'
-						/>
+						<figure>
+							<Image
+								src='/sng-pdf.png'
+								alt='logo'
+								width={800}
+								height={1200}
+								className='object-contain hover:brightness-90 transition-all ease-in-out'
+							/>
+							<figcaption className={'text-center'}>
+								PDF к третьей конференции
+							</figcaption>
+						</figure>
 					</Link>
 				</FadeIn>
 			</PageHeading>
