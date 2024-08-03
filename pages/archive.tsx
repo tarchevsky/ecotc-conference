@@ -3,6 +3,7 @@ import PageHeading from '@/components/pageHeading/PageHeading'
 import FadeIn from '@/components/fadeIn/FadeIn'
 import Image from 'next/image'
 import Link from 'next/link'
+import LinkedFigure from '@/components/linkedFigure/LinkedFigure'
 
 const title = 'Архив'
 const metaDesc = 'Страница Архива'
@@ -43,34 +44,21 @@ const Archive: NextPage = () => {
 						поделиться своим опытом с коллегами, способствуя общему развитию
 						отрасли.
 					</p>
-					<Link href='/OGT4Rus.pdf' target='_blank' rel='noopener noreferrer'>
-						<figure>
-							<Image
-								src='/sng-pdf-2.png'
-								alt='logo'
-								width={800}
-								height={1200}
-								className='object-contain hover:brightness-90 transition-all ease-in-out'
-							/>
-							<figcaption className={'text-center'}>
-								PDF ко второй конференции
-							</figcaption>
-						</figure>
-					</Link>
-					<Link href='/sng.pdf' target='_blank' rel='noopener noreferrer'>
-						<figure>
-							<Image
-								src='/sng-pdf.png'
-								alt='logo'
-								width={800}
-								height={1200}
-								className='object-contain hover:brightness-90 transition-all ease-in-out'
-							/>
-							<figcaption className={'text-center'}>
-								PDF к третьей конференции
-							</figcaption>
-						</figure>
-					</Link>
+					<LinkedFigure
+						link='/pdf/ogt-2-rus.pdf'
+						src='/pdf/ogt-2-rus.png'
+						caption='PDF ко второй конференции'
+					/>
+					<LinkedFigure
+						link='/pdf/ogt-3-rus.pdf'
+						src='/pdf/ogt-3-rus.png'
+						caption='PDF к третьей конференции'
+					/>
+					<LinkedFigure
+						link='/pdf/ogt-4-rus.pdf'
+						src='/pdf/ogt-4-rus.png'
+						caption='PDF к четвертой конференции'
+					/>
 				</FadeIn>
 			</PageHeading>
 		</>
