@@ -45,6 +45,11 @@ const Archive: NextPage = () => {
 						отрасли.
 					</p>
 					<LinkedFigure
+						link='/pdf/ogt-3-1-rus.pdf'
+						src='/pdf/ogt-3-1-rus.png'
+						caption='Третий семинар Торговля нефтью и нефтепродуктами на мировых рынках'
+					/>
+					<LinkedFigure
 						link='/pdf/ogt-2-rus.pdf'
 						src='/pdf/ogt-2-rus.png'
 						caption='PDF ко второй конференции'
