@@ -1,8 +1,6 @@
 import { NextPage } from 'next'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import FadeIn from '@/components/fadeIn/FadeIn'
-import Image from 'next/image'
-import Link from 'next/link'
 import LinkedFigure from '@/components/linkedFigure/LinkedFigure'
 
 const title = 'Архив'
