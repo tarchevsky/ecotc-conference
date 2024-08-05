@@ -4,9 +4,19 @@ const Logos = () => {
 	return (
 		<>
 			<h4 className='font-semibold text-2xl mb-5'>
-				Мы проводили конференции в партнерстве с:
+				<span
+					className='font-bold text-[#229624]'
+					style={{
+						fontFamily: 'Times New Roman',
+						fontWeight: '700',
+						letterSpacing: '0.7px'
+					}}
+				>
+					Eco Technics Consulting LLC
+				</span>
+				&nbsp;проводили конференции в партнерстве с:
 			</h4>
-			<div className='grid grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-14 items-center mb-10 md:mb-16'>
+			<div className='grid grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-14 items-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/gubkina.png'
 					alt='logo'
@@ -63,9 +73,6 @@ const Logos = () => {
 					height={200}
 					className='object-contain justify-self-center'
 				/>
-			</div>
-			<h4 className='font-semibold text-2xl mb-5'>Основные участники</h4>
-			<div className='grid grid-cols-4 gap-14 items-center justify-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/lukoil.jpg'
 					alt='logo'
@@ -75,41 +82,83 @@ const Logos = () => {
 				/>
 				<Image
 					src='/logos/socar.jpg'
-					alt='logo'
+					alt='Socar'
 					width={40}
 					height={40}
 					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
 				/>
 				<Image
 					src='/logos/kaz.jpg'
-					alt='logo'
+					alt='КазМунайГаз'
 					width={50}
 					height={50}
 					className='object-contain justify-self-center md:w-[100px] xl:w-[130px]'
 				/>
 				<Image
 					src='/logos/pwc.png'
-					alt='logo'
+					alt='Price water house Coopers'
 					width={80}
 					height={80}
-					className='object-contain justify-self-center md:w-[150px] xl:w-[180px]'
+					className='object-contain justify-self-center md:w-[200px] xl:w-[250px]'
 				/>
 			</div>
 			<h4 className='font-semibold text-2xl mb-5'>Информационные спонсоры</h4>
-			<div className='grid grid-cols-2 gap-14 items-center justify-center mb-10 md:mb-16'>
+			<div className='grid grid-cols-4 gap-14 items-center justify-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/oilspace.png'
-					alt='logo'
+					alt='Oil space'
 					width={80}
 					height={80}
 					className='object-contain justify-self-center md:w-[150px] xl:w-[180px]'
 				/>
 				<Image
-					src='/logos/interfax.jpg'
-					alt='logo'
+					src='/logos/interfax.png'
+					alt='Интерфакс Ани'
 					width={80}
 					height={80}
 					className='object-contain justify-self-center md:w-[150px] xl:w-[180px]'
+				/>
+				<Image
+					src='/logos/vertical.png'
+					alt='Нефте газовая вертикаль'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[50px] xl:w-[70px]'
+				/>
+				<Image
+					src='/logos/riatek.png'
+					alt='Риатек'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
+				/>
+				<Image
+					src='/logos/rus-neft.png'
+					alt='Нефть России'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
+				/>
+				<Image
+					src='/logos/capital.png'
+					alt='Нефть капитал'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[120px]'
+				/>
+				<Image
+					src='/logos/oilandgazjournal.png'
+					alt='Oil and gaz journal'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[80px] xl:w-[100px]'
+				/>
+				<Image
+					src='/logos/integration.png'
+					alt='Интеграция'
+					width={80}
+					height={80}
+					className='object-contain justify-self-center md:w-[800px] xl:w-[120px]'
 				/>
 			</div>
 		</>
