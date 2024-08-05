@@ -39,13 +39,6 @@ const Logos = () => {
 					className='object-contain justify-self-center'
 				/>
 				<Image
-					src='/logos/refco.webp'
-					alt='logo'
-					width={120}
-					height={120}
-					className='object-contain justify-self-center'
-				/>
-				<Image
 					src='/logos/argus.png'
 					alt='logo'
 					width={120}
@@ -113,6 +106,13 @@ const Logos = () => {
 					alt='ipe'
 					width={70}
 					height={70}
+					className='object-contain justify-self-center'
+				/>
+				<Image
+					src='/logos/ip.png'
+					alt='ip'
+					width={200}
+					height={200}
 					className='object-contain justify-self-center'
 				/>
 			</div>
