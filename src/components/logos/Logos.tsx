@@ -101,6 +101,20 @@ const Logos = () => {
 					height={80}
 					className='object-contain justify-self-center w-[200px] md:w-[200px]'
 				/>
+				<Image
+					src='/logos/sap.png'
+					alt='Price water house Coopers'
+					width={120}
+					height={120}
+					className='object-contain justify-self-center md:w-[200px]'
+				/>
+				<Image
+					src='/logos/ipe.png'
+					alt='ipe'
+					width={70}
+					height={70}
+					className='object-contain justify-self-center'
+				/>
 			</div>
 			<h4 className='font-semibold text-2xl mb-5'>Информационные спонсоры</h4>
 			<div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-14 items-center justify-center mb-10 md:mb-16'>
