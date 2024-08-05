@@ -21,7 +21,17 @@ const HomePage: NextPage = () => {
 					Международные конференции по торговле нефтью и нефтепродуктами для
 					трейдеров стран СНГ: <br />
 					<br />
-					Eco Technics Consulting LLC в качестве организатора
+					<span
+						className='font-bold text-[#229624]'
+						style={{
+							fontFamily: 'Times New Roman',
+							fontWeight: '700',
+							letterSpacing: '0.7px'
+						}}
+					>
+						Eco Technics Consulting LLC
+					</span>
+					&nbsp;в качестве организатора
 				</h2>
 				<p>
 					С 2001 года по инициативе ООО«Эко-Техник Консалтинг» было проведено
