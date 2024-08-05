@@ -47,7 +47,7 @@ const Logos = () => {
 				/>
 				<Image
 					src='/logos/sng.jpg'
-					alt='logo'
+					alt='СНГ'
 					width={100}
 					height={100}
 					className='object-contain justify-self-center'
