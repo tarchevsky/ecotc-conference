@@ -169,7 +169,7 @@ const Logos = () => {
 				/>
 				<Image
 					src='/logos/integration.png'
-					alt='Интеграция'
+					alt='Газета Интеграция'
 					width={180}
 					height={180}
 					className='object-contain justify-self-center'
