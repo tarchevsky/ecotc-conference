@@ -19,28 +19,28 @@ const Logos = () => {
 			<div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-8 items-center mb-10 md:mb-16'>
 				<Image
 					src='/logos/gubkina.png'
-					alt='logo'
+					alt='Логотип Губкина'
 					width={100}
 					height={100}
 					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/uop.png'
-					alt='logo'
+					alt='UOP'
 					width={100}
 					height={100}
 					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/platts.webp'
-					alt='logo'
+					alt='Platts'
 					width={100}
 					height={100}
 					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/argus.png'
-					alt='logo'
+					alt='Argus'
 					width={120}
 					height={120}
 					className='object-contain justify-self-center'
@@ -54,21 +54,21 @@ const Logos = () => {
 				/>
 				<Image
 					src='/logos/ifp.jpg'
-					alt='logo'
+					alt='ifg'
 					width={100}
 					height={100}
 					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/gazprom.png'
-					alt='logo'
+					alt='Gazprom'
 					width={120}
 					height={120}
 					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/lukoil.jpg'
-					alt='logo'
+					alt='Lukoil'
 					width={80}
 					height={80}
 					className='object-contain justify-self-center'
@@ -96,7 +96,7 @@ const Logos = () => {
 				/>
 				<Image
 					src='/logos/sap.png'
-					alt='Price water house Coopers'
+					alt='Sap'
 					width={120}
 					height={120}
 					className='object-contain justify-self-center md:w-[200px]'
