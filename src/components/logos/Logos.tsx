@@ -99,7 +99,7 @@ const Logos = () => {
 					alt='Sap'
 					width={120}
 					height={120}
-					className='object-contain justify-self-center md:w-[200px]'
+					className='object-contain justify-self-center'
 				/>
 				<Image
 					src='/logos/ipe.png'
