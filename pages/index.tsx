@@ -18,9 +18,8 @@ const HomePage: NextPage = () => {
 			<Announces title={title} />
 			<FadeIn className='w-[80vw] md:w-[40vw] m-auto mb-16 prose'>
 				<h2>
-					Международные конференций по торговле нефтью и нефтепродуктами для
-					трейдеров стран СНГ: <br />
-					<br />
+					Международные конференции по торговле нефтью и нефтепродуктами для
+					трейдеров стран СНГ, организованные&nbsp;
 					<span
 						className='font-bold text-[#229624]'
 						style={{
@@ -29,9 +28,8 @@ const HomePage: NextPage = () => {
 							letterSpacing: '0.7px'
 						}}
 					>
-						Eco Technics Consulting LLC
+						Eco-Technics Consulting Ltd
 					</span>
-					&nbsp;в качестве организатора конференции
 				</h2>
 				<p>
 					С 2001 года по инициативе ООО«Эко-Техник Консалтинг» было проведено
