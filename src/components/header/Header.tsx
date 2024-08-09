@@ -24,12 +24,14 @@ const Header = () => {
 				href='/'
 				className={cn(
 					styles.logo,
-					'px-4 py-4 font-bold text-[#229624] text-[20px]'
+					'px-4 py-4 font-bold text-[#229624] text-xl md:text-[26px]'
 				)}
 			>
-				ООО Эко Техник Консалтинг
+				Eco-Technics Consulting Ltd
 				<br />
-				Eco Technics Consulting LLC
+				<i className='text-[10px] md:text-lg text-[#333]'>
+					Организатор конференций и учебно-консультационных семинаров
+				</i>
 			</Link>
 			<nav
 				className={cn(
