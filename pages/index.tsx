@@ -4,6 +4,7 @@ import Meta from '@/components/meta/Meta'
 import Carousel from '@/components/carousel/Carousel'
 import Announces from '@/components/announces/Announces'
 import Logos from '@/components/logos/Logos'
+import Figure from '@/components/figure/Figure'
 
 const title = 'Главная'
 const metaDesc = 'Описание страницы'
@@ -32,11 +33,18 @@ const HomePage: NextPage = () => {
 					</span>
 				</h2>
 				<p>
-					С 2001 года по инициативе ООО«Эко-Техник Консалтинг» было проведено
-					пять ежегодных конференций трейдеров нефти и газа стран СНГ под эгидой
-					Межправительственного Совета по нефти и газу Исполнительного Комитета
-					СНГ.
+					С 2001 года по инициативе Eco -Technics Consulting Ltd (ООО
+					«Эко-Техник Консалтинг») было проведено пять ежегодных конференций
+					трейдеров нефти и газа стран СНГ под эгидой Межправительственного
+					Совета по нефти и газу СНГ.
 				</p>
+				<Figure
+					src='/logos/sng.jpg'
+					caption='CНГ'
+					width={150}
+					height={150}
+					imageClass='m-auto'
+				/>
 				<p>
 					Наша инициатива была поддержана ведущими нефтяными компаниями, такими
 					как ЛУКОЙЛ, Роснефть, SOCAR, Казмунайгаз и др. Под спонсорством этих
@@ -76,8 +84,8 @@ const HomePage: NextPage = () => {
 					конференций превысило 300 делегатов.
 				</p>
 				<p>
-					Инициатором и организатором всех конференций выступало ООО «Эко-Техник
-					Консалтинг».
+					Инициатором всех конференций и семинаров выступало Eco-Technics
+					Consulting Ltd
 				</p>
 			</FadeIn>
 			<FadeIn className='cont mb-10 xl:mb-16'>

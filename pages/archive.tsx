@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import FadeIn from '@/components/fadeIn/FadeIn'
-import LinkedFigure from '@/components/linkedFigure/LinkedFigure'
+import Figure from '@/components/figure/Figure'
 
 const title = 'Архив'
 const metaDesc = 'Страница Архива'
@@ -42,17 +42,17 @@ const Archive: NextPage = () => {
 						поделиться своим опытом с коллегами, способствуя общему развитию
 						отрасли.
 					</p>
-					<LinkedFigure
+					<Figure
 						link='/pdf/ogt-2-rus.pdf'
 						src='/pdf/ogt-2-rus.png'
 						caption='PDF ко второй конференции'
 					/>
-					<LinkedFigure
+					<Figure
 						link='/pdf/ogt-3-rus.pdf'
 						src='/pdf/ogt-3-rus.png'
 						caption='PDF к третьей конференции'
 					/>
-					<LinkedFigure
+					<Figure
 						link='/pdf/ogt-4-rus.pdf'
 						src='/pdf/ogt-4-rus.png'
 						caption='PDF к четвертой конференции'
