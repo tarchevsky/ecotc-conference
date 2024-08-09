@@ -30,7 +30,7 @@ const Header = () => {
 				Eco-Technics Consulting Ltd
 				<br />
 				<i className='text-[10px] md:text-lg text-[#333]'>
-					Организатор конференций и учебно-консультационных семинаров
+					Организатор конференции и учебно-консультационных семинаров
 				</i>
 			</Link>
 			<nav
