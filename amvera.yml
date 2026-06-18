@@ -5,8 +5,10 @@ meta:
     version: "20"
 
 build:
-  additionalCommands: npm run build
+  additionalCommands: npm run build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/
+  artifacts:
+    ".next/standalone/*": /
 
 run:
-  command: npm run start
+  command: HOSTNAME=0.0.0.0 node server.js
   containerPort: 3000
