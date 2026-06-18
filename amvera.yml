@@ -1,12 +1,12 @@
 meta:
   environment: node
   toolchain:
-    name: yarn # Используем yarn, как у вас
-    version: '20'
+    name: npm
+    version: "20"
 
 build:
-  command: yarn install && yarn build
+  additionalCommands: npm run build
 
 run:
-  command: yarn start
+  command: npm run start
   containerPort: 3000
